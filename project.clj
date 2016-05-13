@@ -13,6 +13,7 @@
                  [mvxcvi/puget "1.0.0"]
                  [fipp "0.6.4"]
                  [org.clojure/tools.nrepl "0.2.12"]]
+  :profiles {:dev {:dependencies [[alembic "0.3.2"]]}}
   :aot [ipython-clojure.core]
   :main ipython-clojure.core
   :jvm-opts ["-Xmx250m"]
